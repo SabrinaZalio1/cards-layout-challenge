@@ -18,7 +18,7 @@ export const cardsData = [
     },
     {
       title: 'Card 4',
-      description: 'Excepteur sint occaecat cupidatat non proident...',
+      description: 'Excepteur sint occaecat cupidatat non proiden cupidatat cupidatat',
       imageUrl: 'https://via.placeholder.com/150',
     },
   ];

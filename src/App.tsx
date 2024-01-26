@@ -23,9 +23,9 @@ const App = () => {
   };
 
   return (
-    <div className="main-container container mt-5">
-      <h1>Heading Title</h1>
-      <div className="cards-section d-flex mt-5">
+    <div className="main-container pt-5">
+      <h1 className='text-white'>Heading <span className='header__text-color'>Title</span> </h1>
+      <div className="cards-section d-flex m-auto mt-5">
         {cardsData.map((card, index) => (
           <Card
             key={index}
