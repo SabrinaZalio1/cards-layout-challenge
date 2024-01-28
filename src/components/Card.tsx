@@ -1,4 +1,3 @@
-// Card.js
 import React from 'react';
 
 interface CardProps {
@@ -13,7 +12,7 @@ const Card: React.FC<CardProps> = ({ title, description, imageUrl, onClick }) =>
     <div className="c-card" onClick={onClick}>
       <img src={imageUrl} alt={title} className='w-100 c-card__img'/>
       <div className='p-3'>
-        <h2>{title}</h2>
+        <h3>{title}</h3>
         <p className='c-card__description'>{description}</p>
       </div>
     </div>

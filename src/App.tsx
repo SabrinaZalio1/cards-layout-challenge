@@ -1,4 +1,3 @@
-// App.tsx
 import { useState } from 'react';
 import './App.css';
 import Modal from './components/Modal';
@@ -23,9 +22,12 @@ const App = () => {
   };
 
   return (
-    <div className="main-container pt-5">
-      <h1 className='text-white'>Heading <span className='header__text-color'>Title</span> </h1>
-      <div className="cards-section d-flex m-auto mt-5">
+    <div className="main-container py-5">
+      <div className='header'>
+       <h1>Card <span className='header__text-color'>Layout</span></h1>
+       <p className='header__subtitle'>Card layout using Flexbox and react-spring as a React library for animation purposes. CSS used instead of SASS becaused of the small sized application.</p>
+      </div>
+      <div className="cards-section d-flex justify-content-center m-auto mt-5">
         {cardsData.map((card, index) => (
           <Card
             key={index}

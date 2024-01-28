@@ -1,4 +1,3 @@
-// Modal.js
 import React, { useRef } from 'react';
 import useHandleClickOutside from '../hooks/useClickOutside';
 import { useSpring, animated } from 'react-spring';
