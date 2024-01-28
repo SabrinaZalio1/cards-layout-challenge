@@ -1,6 +1,6 @@
 # Cards Layout Challenge
 
-### Card Layout application created with React.JS. For this project was used Bootstrap, CSS and react-spring library.
+### Card Layout application created with React.JS. For this project was used Bootstrap, CSS and react-spring library. BEM methodology was used for the CSS classes.
 </br>
 <img width="1352" alt="application" src="https://github.com/SabrinaZalio1/cards-layout-challenge/assets/81325676/5cc6a9fb-bd3a-4427-8e0e-37b65bb41732">
 </br>
